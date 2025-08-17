@@ -1,0 +1,6 @@
+@page { size: A4; margin: 12mm; }
+* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.no-print, .btn, .navbar, .sidebar { display: none !important; }
+h1, h2, h3, h4, h5, h6, .section-title { page-break-after: avoid; }
+table, ul, li, p { page-break-inside: avoid; }
+#page { width: 100%; max-width: 210mm; margin: 0 auto; }
